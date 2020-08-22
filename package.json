@@ -4,7 +4,7 @@
   "description": "A static file server for fancy apps",
   "main": "./lib",
   "scripts": {
-    "test": "npm run lint && npm run coverage",
+    "test": "npm run coverage",
     "test-unit": "mocha test/unit/**",
     "test-integration": "mocha test/integration/**",
     "lint": "eslint .",
